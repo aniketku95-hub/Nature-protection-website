@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nature Protection</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1 class="moving-title">🌿 PROTECT NATURE 🌿</h1>
+    <p>Together We Can Save Our Planet</p>
+</header>
+
+<section class="hero">
+    <h2>Nature Is Our Future</h2>
+    <p>
+        Forests, rivers, oceans and wildlife need protection.
+        Small actions today create a better world tomorrow.
+    </p>
+</section>
+
+<section class="cards">
+
+    <div class="card" onclick="showInfo('trees')">
+        <h3>🌳 Plant Trees</h3>
+        <p>Click to learn more</p>
+    </div>
+
+    <div class="card" onclick="showInfo('water')">
+        <h3>💧 Save Water</h3>
+        <p>Click to learn more</p>
+    </div>
+
+    <div class="card" onclick="showInfo('wildlife')">
+        <h3>🦋 Protect Wildlife</h3>
+        <p>Click to learn more</p>
+    </div>
+
+    <div class="card" onclick="showInfo('recycle')">
+        <h3>♻️ Recycle Waste</h3>
+        <p>Click to learn more</p>
+    </div>
+
+</section>
+
+<div id="info-box">
+    Click on any card above to learn more.
+</div>
+
+<section class="contact">
+    <h2>Join The Movement</h2>
+
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Enter Your Name" required>
+        <input type="email" id="email" placeholder="Enter Your Email" required>
+
+        <button type="submit">Join Now</button>
+    </form>
+
+    <p id="message"></p>
+</section>
+
+<footer>
+    <p>🌍 Save Nature • Save Future 🌍</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
